@@ -1,4 +1,4 @@
-package matcher
+package gomatcher
 
 // Matcher 匹配
 type Matcher interface {

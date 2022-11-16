@@ -1,4 +1,4 @@
-package matcher
+package gomatcher
 
 type DFANode struct {
 	end   bool

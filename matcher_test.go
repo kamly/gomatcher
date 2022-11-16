@@ -1,4 +1,4 @@
-package matcher
+package gomatcher
 
 var words = []string{"golang语言", "十分好用"}
 var hasSensStr = "赞啊，golang语言好用，十分好用"

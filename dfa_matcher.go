@@ -1,4 +1,4 @@
-package matcher
+package gomatcher
 
 type DFAMatcher struct {
 	root *DFANode

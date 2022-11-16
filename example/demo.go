@@ -11,7 +11,7 @@ func main() {
 
 	// dfa
 	{
-		m := matcher.NewDFAMatcher()
+		m := gomatcher.NewDFAMatcher()
 		err := m.Build(words)
 		if err != nil {
 			return
@@ -21,7 +21,7 @@ func main() {
 
 	// ac
 	{
-		m := matcher.NewAhoCorasickMatcher()
+		m := gomatcher.NewAhoCorasickMatcher()
 		err := m.Build(words)
 		if err != nil {
 			return
@@ -31,7 +31,7 @@ func main() {
 
 	// 正则
 	{
-		m := matcher.NewRegMatcher()
+		m := gomatcher.NewRegMatcher()
 		err := m.Build(words)
 		if err != nil {
 			return
